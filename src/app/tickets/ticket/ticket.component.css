@@ -1,0 +1,34 @@
+/* Import des styles pour les cartes */
+@import '../../../styles/card.css';
+
+/* Styles pour la classe .ticket */
+.ticket {
+  width: 100%;
+  text-align: center;
+  /* background: red; */
+  background: rgb(255, 183, 0);
+  /* Ajout d'une marge pour l'espacement entre les cartes */
+  margin-bottom: 1em;
+}
+
+/* Ajout d'un style lors du survol */
+.ticket:hover {
+  cursor: pointer;
+}
+
+/* Styles pour la classe .delbtn */
+.delbtn {
+  /* Utilisation de valeurs plus standard pour la border-radius */
+  border-radius: 50%;
+  /* Utilisation de variables pour les couleurs */
+  background-color: var(--white-color);
+  /* Normalisation des boutons */
+  border: none;
+  padding: 0.5em;
+}
+
+/* Ajout d'un style pour le survol du bouton de suppression */
+.delbtn:hover {
+  background-color: rgba(102, 179, 1, 0.744);
+  color: rgb(196, 15, 15);
+}
